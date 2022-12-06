@@ -72,6 +72,16 @@ function ComponenetsGrid() {
             desc='This is Input component, this can be used in varity of usecases, as in form controls, login & user inputs etc.,'
           />
         </NavLink>
+        
+        <NavLink to='/navbar' className='navLink' activeClassName='navLinkActive' style={{textDecoration: 'none'}}>
+          <ComponentCard 
+            logoSrc={dropdown} 
+            hovLogo={hovSpinnerIcon}
+            title='Navbars' 
+            desc='Navbar testing component'
+          />
+        </NavLink>
+
         <NavLink to='/toggleButton' className='navLink' activeClassName='navLinkActive' style={{textDecoration: 'none'}}>
           <ComponentCard 
             logoSrc={toggleButton} 
@@ -98,6 +108,7 @@ function ComponenetsGrid() {
             desc='This is DropDown menu component, this can be used select an option from multiple options present in the menu list.'
           />
         </NavLink>
+       
         <NavLink to='/image' className='navLink' activeClassName='navLinkActive' style={{textDecoration: 'none'}}>
           <ComponentCard 
             logoSrc={imageicon}
@@ -146,7 +157,7 @@ function ComponenetsGrid() {
         </NavLink>
         <NavLink to='/spinner' className='navLink' activeClassName='navLinkActive' style={{textDecoration: 'none'}}>
           <ComponentCard 
-            logoSrc={spinnericon}
+            logoSrc={spinnericon} 
             hovLogo={hovSpinnerIcon}
             title='Spinners' 
             desc='Spinner Component, which can be used to shown in the view while the data from backend is getting loaded'

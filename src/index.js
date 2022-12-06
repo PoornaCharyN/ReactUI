@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import NavBarContainer from './components/basic/Navbar/NavBarContainer';
 import ButtonContainer from './components/basic/Button/ButtonContainer';
 import InputContainer from './components/basic/Input/InputContainer';
 import ToggleButtonContainer from './components/basic/ToggleButton/ToggleButtonContainer';
@@ -42,6 +43,7 @@ const routing = (
       <Route path='/radioButton' component={RadioButtonContainer} />
       <Route path='/dropdown' component={DropDownContainer} />
       <Route path='/image' component={ImageContainer} />
+      <Route path= '/navbar'component={NavBarContainer} />
       <Route path='/tooltip' component={TooltipContainer} />
       <Route path='/popover' component={PopoverContainer} />
       <Route path='/modal' component={ModalContainer} />
